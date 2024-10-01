@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Template</title>
+    <title>המדריך לשיקום הברך</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f2f2f2;
             margin: 0;
             padding: 0;
             direction: rtl;
@@ -16,70 +16,96 @@
             max-width: 600px;
             margin: 0 auto;
             background-color: #ffffff;
-            border-radius: 10px;
             overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            text-align: center;
-            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
         .logo {
-            margin: 20px 0;
+            margin: 20px auto;
+            display: block;
+            width: 150px;
+            height: auto;
         }
         .header {
-            background-color: #fff;
-            color: #333;
-            padding: 10px;
+            background-color: #005b99;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
         }
         .header h1 {
-            font-size: 24px;
+            font-size: 28px;
             margin: 0;
             font-weight: bold;
         }
+        .header p {
+            font-size: 18px;
+            margin: 5px 0 0;
+        }
         .main-image {
-            width: 100%;
+            width: 80%;
+            max-width: 250px;
+            height: auto;
             border-radius: 5px;
-            margin-top: 20px;
+            margin: 20px auto;
+            display: block;
         }
         .email-body {
             padding: 20px;
             color: #333;
+            text-align: center;
         }
         .email-body h2 {
-            font-size: 22px;
-            color: #000;
-            margin-bottom: 10px;
+            font-size: 24px;
+            color: #005b99;
+            margin-bottom: 15px;
         }
         .email-body p {
             font-size: 16px;
             line-height: 1.6;
             color: #555;
+            margin: 0 0 20px;
         }
         .cta-button {
             display: inline-block;
-            margin-top: 20px;
             background-color: #e67e22;
             color: #ffffff;
-            padding: 12px 30px;
+            padding: 15px 30px;
             text-decoration: none;
             border-radius: 5px;
             font-size: 18px;
             font-weight: bold;
+            margin-bottom: 30px;
+        }
+        .cta-button:hover {
+            background-color: #cf6d1d;
         }
         .footer {
-            background-color: #f4f4f4;
+            background-color: #f2f2f2;
             color: #999;
-            padding: 10px;
+            padding: 15px;
             font-size: 12px;
+            text-align: center;
+        }
+        .footer a {
+            color: #005b99;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
         @media (max-width: 600px) {
-            .email-container {
-                width: 100%;
+            .email-body h2 {
+                font-size: 22px;
             }
-            .header, .email-body, .footer {
-                padding: 15px;
+            .header h1 {
+                font-size: 24px;
+            }
+            .header p {
+                font-size: 16px;
             }
             .cta-button {
-                padding: 15px 25px;
+                padding: 12px 25px;
+                font-size: 16px;
             }
         }
     </style>
@@ -87,29 +113,30 @@
 <body>
     <div class="email-container">
         <!-- Logo -->
-        <img src="https://via.placeholder.com/150x50?text=המדריך" alt="רב מסר" class="logo">
-        
+        <img src="https://via.placeholder.com/150x50?text=המדריך" alt="המדריך לשיקום הברך" class="logo">
+
         <!-- Header -->
         <div class="header">
             <h1>המדריך לשיקום הברך</h1>
-            <p>המדריך המלא</p>
+            <p>המדריך המלא לבריאותך</p>
         </div>
 
         <!-- Main Image -->
-        <img src="https://static.wixstatic.com/media/fcda9b_7e0aa2d990c34b9aa6e331434fe68550~mv2.png/v1/fill/w_227,h_325,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3.png" alt="המדריך" class="main-image">
+        <img src="https://static.wixstatic.com/media/fcda9b_7e0aa2d990c34b9aa6e331434fe68550~mv2.png" alt="המדריך" class="main-image">
 
         <!-- Body Content -->
         <div class="email-body">
-            <h2>המדריך לשיקום הברך נוצר עבור אלו המבקשים לחיות ללא כאב</h2>
-            <p>המדריך יסייע לכם לשקם את הברכיים ולהחזיר לכם את השליטה בגוף. בואו ללמוד איך להימנע מפציעות ולחזור לשגרת חיים בריאה!</p>
+            <h2>חיים ללא כאב מתחילים כאן</h2>
+            <p>המדריך שלנו יסייע לך לשקם את הברכיים ולהחזיר את השליטה לגוף שלך. למד כיצד להימנע מפציעות ולחזור לשגרת חיים בריאה ומלאה.</p>
 
             <!-- Call to Action -->
-            <a href="https://www.lael-laban.com/%D7%94%D7%9E%D7%93%D7%A8%D7%99%D7%9A-%D7%9C%D7%A9%D7%99%D7%A7%D7%95%D7%9D-%D7%94%D7%91%D7%A8%D7%9A" class="cta-button">קבלו את המדריך עכשיו</a>
+            <a href="https://www.lael-laban.com/המדריך-לשיקום-הברך" class="cta-button">קבל את המדריך עכשיו</a>
         </div>
 
         <!-- Footer -->
         <div class="footer">
             <p>© 2024 רב מסר. כל הזכויות שמורות.</p>
+            <p>אם אינך מעוניין לקבל מאיתנו מיילים נוספים, <a href="#">הסר את עצמך מהרשימה</a>.</p>
         </div>
     </div>
 </body>
